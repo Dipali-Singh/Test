@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles-old.css">
+    <link rel="stylesheet" href="css/styles-payment.css">
+    <!-- endbuild -->
+    <title>Travel Go: Payment</title>
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-money fa-lg"></span> Transaction</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Travel Go</h1>
+                    <p>The sky's the limit! We'll show you the world. Sandy beaches to snowy peaks. Get with us and get away.</p>
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <img src="img/logo.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <ol class="col-12 breadcrumb">
+                        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                        <li class="breadcrumb-item active">Payment</li>
+                    </ol>
+                    <h3>Payment Details</h3>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-8 col-sm-8 col-xs-8">
+                        <div class="payment-wrapper">
+                            <div class="payment-info">
+
+                                <h5><i class="fa fa-info" aria-hidden="true"></i> Payment Info (Secure SSL Encrypted Transaction)</h5>
+
+                            </div>
+                            <div class="payment-methodcard">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+
+                                        <label class="payment-method">Payment Method<span class="star">*</span></label>
+
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                        <div class="visa">
+                                            <select class="form-control text-control">
+                                                <option value="visa">visa</option>
+                                                <option value="Mastercard">Mastercard</option>
+                                                <option value="Discover">Discover</option>
+                                                <option value="American Express">American Express</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <div class="cards">
+                                            <div class="card-1">
+                                                <img src="https://cdn.shopify.com/s/files/1/0825/6023/t/9/assets/footer-paypal-2.png?9639925907821449570" alt="visa view" />
+                                            <span></span>
+                                                <img src="https://www.libhumanitas.ro/skin/frontend/default/libhumanitas_new/images/maestro.png" alt="visa view" />
+                                            <span></span>
+                                                <img src="https://www.carmax.com/~/media/images/carmax/com/at-a-glance/logo-nhtsa.svg?ts=20160329T193132Z" alt="visa view" />
+                                            </div>
+                                            
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="payment-methodcard">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <div class="payment-method">
+                                            <span>Cr. / De. Card Number<span class="star">*</span></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                        <div class="visa">
+                                            <input type="text" class="form-control text-control" placeholder="Credit/ Debit card number" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <div class="card-number">
+
+                                            <span>(Pay with credit or debit card)</span>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="payment-methodcard">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <div class="payment-method">
+                                            <span>Expiration Date<span class="star">*</span></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                        <div class="visa Month-cntrl">
+                                            <select class=" form-control">
+                                                <option value="Month">Month</option>
+                                                <option value="January">January</option>
+                                                <option value="February">February</option>
+                                                <option value="March">March</option>
+                                                <option value="April">April</option>
+                                                <option value="May">May</option>
+                                                <option value="June">June</option>
+                                                <option value="July">July</option>
+                                                <option value="August">August</option>
+                                                <option value="September">September</option>
+                                                <option value="October">October</option>
+                                                <option value="November">November</option>
+                                                <option value="December">December</option>
+                                            </select>
+
+                                        </div>
+                                        <div class="visa Month-cntrl">
+                                            <select class=" form-control">
+                                                <option value="volvo">Year</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                                <option value="2025">2025</option>
+                                                <option value="2026">2026</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <div class="card-number">
+
+                                            <!-- <span>(Pay with credit or debit card)</span> -->
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="payment-methodcard norton-payment">
+                                <div class="row">
+
+                                    <div class="col-lg-6 col-md-3 col-sm-3 col-xs-3">
+                                        <div class="payment-method">
+                                            <span class="Acceptance"> <i class="icon-class fa fa-id-card-o" aria-hidden="true"></i> <a href="#" target="_blank">Payment Acceptance Policy</a></span>
+                                            <span class="Acceptance"> <i class="icon-class fa fa-id-card-o" aria-hidden="true"></i> <a href="#" target="_blank">Payment Acceptance Policy</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-4 col-sm-4 col-xs-4">
+                                        <div class="norton">
+                                            <img src="http://www.aveiro.co.pt/noticias/Terra%20Nova.png" alt="Norton view" />
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="billig">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <div class="payment-wrapper">
+                                        <div class="payment-info">
+
+                                            <h5><i class="fa fa-info" aria-hidden="true"></i> Billing Information</h5>
+
+                                        </div>
+                                        <div class="payment-methodcard">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                    <label class="payment-method">country<span class="star">*</span></label>
+                                                </div>
+                                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                                    <div class="visa">
+                                                        <select class="form-control text-control">
+                                                            <option value="Alaska">Alaska</option>
+                                                            <option value="Australia">Australia</option>
+                                                            <option value="Africa">Africa</option>
+                                                            <option value="America">America</option>
+                                                            <option value="India">India</option>
+                                                            <option value="Italy">Ttaly</option>
+                                                            
+                                                        </select>
+
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="payment-methodcard">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                    <div class="payment-method">
+                                                        <span>Address<span class="star">*</span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                                    <div class="visa adress">
+                                                        <input type="text" class="form-control text-control" placeholder="" />
+                                                    </div>
+                                                    <div class="visa adress">
+                                                        <input type="text" class="form-control text-control" placeholder="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="payment-methodcard">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                    <div class="payment-method">
+                                                        <span>City<span class="star">*</span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                                    <div class="visa adress">
+                                                        <input type="text" class="form-control text-control" placeholder="City Name" />
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="payment-methodcard">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                                                    <div class="payment-method">
+                                                        <span>Zip<span class="star">*</span></span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                                    <div class="visa adress">
+                                                        <input type="text" class="form-control text-control" placeholder="Zip" />
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4"></div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        Mumbai<br>
+                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>� Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
